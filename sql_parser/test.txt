@@ -1,0 +1,5 @@
+create file product (id, name, desc , price, wheight, count);
+create file customer (id, firstname,  lastname, phone); 
+insert into file product (id, name, desc, price, wheight, count) rows (1, "pen", "Ballpoint Pen", 1, 5, 10), (2, "pencil", "Drawing Pen", 2, 8, 12), (3, "book", "Ruled Notebook for kids", 4, 6, 100); 
+select * from file product where count > 3;
+delete file product;
